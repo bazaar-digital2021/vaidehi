@@ -41,7 +41,7 @@ export function TestimonialsSection() {
                         Student Testimonials
                     </h2>
                     <p className="text-gray-600 max-w-2xl mx-auto">
-                        Hear from our students about their journey at Vydehi Institute
+                        Hear from our students about their journey at Vaidehi Institute
                     </p>
                 </motion.div>
 

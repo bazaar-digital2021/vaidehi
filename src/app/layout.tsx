@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import Footer from "@/components/footer";
+import Providers from "@/components/progress-bar-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vydehi Institute of Nursing Sciences & Research Centre",
-  description: "Vydehi Institute of Nursing Sciences & Research Centre",
+  title: "Vaidehi Institute of Nursing Sciences & Research Centre",
+  description: "Vaidehi Institute of Nursing Sciences & Research Centre",
   icons: {
     icon: "/vi-logo.png",
   },
@@ -32,9 +33,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
+        <Providers>
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );

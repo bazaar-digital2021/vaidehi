@@ -60,7 +60,7 @@ export function YouTubeSection() {
                             <div className="absolute inset-0 z-0">
                                 <img
                                     src="https://i.ytimg.com/vi/Kkmx3n6jxnM/maxresdefault.jpg"
-                                    alt="Vydehi Institute Video Preview"
+                                    alt="Vaidehi Institute Video Preview"
                                     className="w-full h-full object-cover"
                                 />
                             </div>
@@ -75,7 +75,7 @@ export function YouTubeSection() {
                             <iframe
                                 className="absolute inset-0 w-full h-full"
                                 src="https://www.youtube-nocookie.com/embed/Kkmx3n6jxnM?autoplay=1&rel=0&modestbranding=1&showinfo=0&mute=1&loop=1&playlist=Kkmx3n6jxnM"
-                                title="Vydehi Institute Video"
+                                title="Vaidehi Institute Video"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
