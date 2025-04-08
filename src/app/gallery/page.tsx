@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function GalleryPage() {
     return (
         <div className="container mx-auto px-4 py-12">
@@ -9,9 +11,9 @@ export default function GalleryPage() {
                 {Array.from({ length: 12 }).map((_, index) => (
                     <div
                         key={index}
-                        className="bg-gray-200 aspect-square flex items-center justify-center rounded-md overflow-hidden"
+                        className="relative aspect-square w-full h-full"
                     >
-                        <span className="text-gray-500">Image {index + 1}</span>
+                        <Image src={`/gallery/${index + 1}.jpeg`} alt="Gallery" fill className="object-cover" />
                     </div>
                 ))}
             </div>

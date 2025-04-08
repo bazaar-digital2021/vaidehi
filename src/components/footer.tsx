@@ -131,7 +131,7 @@ const Footer = () => {
 
                     </a>
                     <p className="text-sm text-center md:text-right">
-                        © {new Date().getFullYear()} Vaidehi Institute of Nursing & Higher Education. All Rights Reserved. Website developed by <Link href='/https://www.bazaardigital.in/' className='text-secondary font-bold text-xl'>Bazaar Digital </Link> Pvt Ltd
+                        © {new Date().getFullYear()} Vaidehi Institute of Nursing & Higher Education. All Rights Reserved. Website developed by <Link href='/https://www.bazaardigital.in/' className='text-secondary font-medium text-lg'>Bazaar Digital </Link>
                     </p>
                 </div>
             </div>
