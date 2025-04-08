@@ -61,11 +61,11 @@ export function Navbar() {
                         </Button>
                     </SheetTrigger>
                     <SheetContent side="right" className="w-[85%] max-w-sm p-0 border-l shadow-lg">
-                        <Link href="/" className="flex items-cente z-10 pt-4">
-                            <div className="relative h-64 w-48 sm:w-64">
+                        {/* <Link href="/" className="flex items-cente z-10 pt-4">
+                            <div className="relative h-24 md:h-64 w-48 sm:w-64">
                                 <Image src="/vi-logo.png" alt="VAIDEHI INSTITUTE" fill className="object-contain" />
                             </div>
-                        </Link>
+                        </Link> */}
                         <MobileNav items={navigation} setOpen={setOpen} />
                     </SheetContent>
                 </Sheet>
