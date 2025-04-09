@@ -127,11 +127,11 @@ const Footer = () => {
             {/* Copyright */}
             <div className="border-t border-blue-500 mt-8 pt-6">
                 <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-                    <a href="https://vins.ac.in/#" className="text-white hover:underline mb-2 md:mb-0 order-2">
-
+                    <a href="https://www.bazaardigital.in/" className="text-white hover:underline mb-2 md:mb-0 order-2">
+                        Design & Developed by <span className='text-white  text-lg'>Bazaar Digital </span>
                     </a>
                     <p className="text-sm text-center md:text-right order-1">
-                        © {new Date().getFullYear()} Vaidehi Institute of Nursing & Higher Education. All Rights Reserved. Website Design & Developed by <Link href='/https://www.bazaardigital.in/' className='text-secondary font-medium text-lg'>Bazaar Digital </Link>
+                        © {new Date().getFullYear()} Vaidehi Institute of Nursing & Higher Education. All Rights Reserved.
                     </p>
                 </div>
             </div>

@@ -10,7 +10,7 @@ export function AchievementsSection() {
         <section className="py-16 bg-gray-50">
             <div className="container mx-auto px-4">
                 {/* Section Header */}
-                <motion.h2
+                {/* <motion.h2
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -18,10 +18,10 @@ export function AchievementsSection() {
                     className="text-3xl md:text-4xl font-bold text-center text-secondary mb-12"
                 >
                     ACHIEVEMENTS
-                </motion.h2>
+                </motion.h2> */}
 
                 {/* Achievement Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
                     <AchievementCard
                         title="M.Sc Nursing students had secured 100% result with first class in university examination conducted by RGUHS."
                         percentage={100}
@@ -30,7 +30,7 @@ export function AchievementsSection() {
                         title="B.Sc Nursing students had secured 100% result with first class and distinctions in university examination conducted by RGUHS."
                         percentage={100}
                     />
-                </div>
+                </div> */}
 
                 {/* Admission Section */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -44,7 +44,7 @@ export function AchievementsSection() {
                     >
                         <div className="relative w-full rounded-lg overflow-hidden" style={{ height: "400px" }}>
                             <Image
-                                src="/images/student-group.png"
+                                src="/images/bsc.jpeg"
                                 alt="Vaidehi Institute Students"
                                 fill
                                 className="object-cover"
@@ -61,14 +61,14 @@ export function AchievementsSection() {
                         className="w-full"
                     >
                         <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6">
-                            ADMISSION OPEN FOR 2025
+                            ADMISSION OPEN FOR 2025 - 2026
                         </h3>
                         <div className="text-gray-700 space-y-4">
                             <p>
                                 <span className="font-bold">Vaidehi Institute of Nursing & Higher Education</span> is a prestigious institution; its establishment took place in Sithamarhi, Bihar in the year <span className="font-bold">5th Feb 2023</span>.
                             </p>
                             <p>
-                                The institute offers M.Sc. (N), B.Sc. (N), Post Basic B.Sc. (N) and Diploma nursing. Vaidehi Institute of Nursing & Higher Education offer an encouraging and healthy environment for students to grow with an affordable fee.
+                                The institute offers B.Sc. (N) , GNM and ANM nursing. Vaidehi Institute of Nursing & Higher Education offer an encouraging and healthy environment for students to grow with an affordable fee.
                             </p>
                             <p>
                                 It also offers a high-class infrastructure as well as gives a home-like environment to its students. Vaidehi Institute of Nursing & Higher Education is one of the top 5 nursing institutes in Bihar.

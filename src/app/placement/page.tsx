@@ -1,6 +1,17 @@
+import Image from "next/image";
+
 export default function PlacementPage() {
     return (
         <div className="container mx-auto px-4 py-12">
+            <div className="w-full relative h-[300px] md:h-[500px] mb-8">
+                <Image
+                    src='/images/bsc.jpeg'
+                    alt='placement'
+                    fill
+                    className="object-cover rounded-lg"
+                    priority
+                />
+            </div>
             <h1 className="text-4xl font-bold mb-6">Placement</h1>
             <div className="space-y-6">
                 <p className="text-lg">

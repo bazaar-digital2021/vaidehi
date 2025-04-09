@@ -1,23 +1,50 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function SecretaryMessagePage() {
     return (
         <div className="container mx-auto px-4 py-12">
-            <h1 className="text-3xl font-bold mb-6">Secretary's Message</h1>
+            <motion.h1
+                className="text-3xl font-bold mb-6"
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5 }}
+            >
+                Secretary's Message
+            </motion.h1>
 
             <div className="flex flex-col md:flex-row gap-8">
-                <div className="md:w-1/3">
-                    <div className="relative aspect-[3/4] w-full mb-4 rounded-lg overflow-hidden shadow-lg">
+                <motion.div
+                    className="md:w-1/3"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.7 }}
+                >
+                    <motion.div
+                        className="relative aspect-[3/4] w-full mb-4 rounded-lg overflow-hidden shadow-lg"
+                        whileHover={{ scale: 1.03 }}
+                        transition={{ duration: 0.3 }}
+                    >
                         <Image src="/governing/seceretary.jpeg" alt="Secretary" fill className="object-cover" />
-                    </div>
-                    <div className="text-center">
+                    </motion.div>
+                    <motion.div
+                        className="text-center"
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 0.2 }}
+                    >
                         <h3 className="font-semibold text-xl">Rakesh Kumar Singh</h3>
                         <p className="text-gray-600">Secretary , Vaidehi Institute of Nursing & Higher Education</p>
-                    </div>
-                </div>
+                    </motion.div>
+                </motion.div>
 
-                <div className="md:w-2/3 prose max-w-none">
+                <motion.div
+                    className="md:w-2/3 prose max-w-none"
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.3 }}
+                >
                     <p className="lead text-lg font-medium mb-4">
                         Dear Students, Parents, and Esteemed Colleagues,
                     </p>
@@ -59,7 +86,7 @@ export default function SecretaryMessagePage() {
                         in nursing education. Together, we will continue to build an institution that produces nursing
                         professionals who make significant contributions to healthcare and society.
                     </p>
-                </div>
+                </motion.div>
             </div>
         </div>
     );
