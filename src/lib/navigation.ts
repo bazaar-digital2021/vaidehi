@@ -133,58 +133,58 @@ export const navigation: Navigation = [
 
         ]
     },
-    {
-        title: "Facilities",
-        items: [
-            {
-                title: 'Infrastructure',
-                href: '/facilities/infrastructure'
-            },
-            {
-                title: 'Teaching and learning',
-                items: [
-                    {
-                        title: 'Hospital',
-                        href: '/facilities/teaching-and-learning/hospital'
-                    },
-                    {
-                        title: 'Community',
-                        href: '/facilities/teaching-and-learning/community'
-                    },
-                    {
-                        title: 'Laboratories',
-                        items: [
-                            {
-                                title: 'Fundamnetal of Nursing Lab',
-                                href: '/facilities/teaching-and-learning/laboratories/fundamental-of-nursing-lab'
-                            },
-                            {
-                                title: 'Community Health Nursing Lab',
-                                href: '/facilities/teaching-and-learning/laboratories/community-health-nursing-lab'
-                            },
-                            {
-                                title: 'Computer Lab',
-                                href: '/facilities/teaching-and-learning/laboratories/computer-lab'
-                            }
-                        ]
-                    },
-                    {
-                        title: 'Library',
-                        items: [
-                            {
-                                title: 'Helinet',
-                                href: '/facilities/teaching-and-learning/library/helinet'
-                            },
-                            {
-                                title: 'Digital Library',
-                                href: '/facilities/teaching-and-learning/library/digital-library'
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
+    // {
+    //     title: "Facilities",
+    //     items: [
+    //         {
+    //             title: 'Infrastructure',
+    //             href: '/facilities/infrastructure'
+    //         },
+    //         {
+    //             title: 'Teaching and learning',
+    //             items: [
+    //                 {
+    //                     title: 'Hospital',
+    //                     href: '/facilities/teaching-and-learning/hospital'
+    //                 },
+    //                 {
+    //                     title: 'Community',
+    //                     href: '/facilities/teaching-and-learning/community'
+    //                 },
+    //                 {
+    //                     title: 'Laboratories',
+    //                     items: [
+    //                         {
+    //                             title: 'Fundamnetal of Nursing Lab',
+    //                             href: '/facilities/teaching-and-learning/laboratories/fundamental-of-nursing-lab'
+    //                         },
+    //                         {
+    //                             title: 'Community Health Nursing Lab',
+    //                             href: '/facilities/teaching-and-learning/laboratories/community-health-nursing-lab'
+    //                         },
+    //                         {
+    //                             title: 'Computer Lab',
+    //                             href: '/facilities/teaching-and-learning/laboratories/computer-lab'
+    //                         }
+    //                     ]
+    //                 },
+    //                 {
+    //                     title: 'Library',
+    //                     items: [
+    //                         {
+    //                             title: 'Helinet',
+    //                             href: '/facilities/teaching-and-learning/library/helinet'
+    //                         },
+    //                         {
+    //                             title: 'Digital Library',
+    //                             href: '/facilities/teaching-and-learning/library/digital-library'
+    //                         }
+    //                     ]
+    //                 }
+    //             ]
+    //         }
+    //     ]
+    // },
     {
         title: "Placement",
         href: '/placement'

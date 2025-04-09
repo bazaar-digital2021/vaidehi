@@ -1,4 +1,5 @@
-import ModernComingSoon from "@/components/coming-soon";
+import AdmissionProcess from "@/components/admission-process";
+
 
 export default async function AdmissionProcedure({
     params,
@@ -7,6 +8,6 @@ export default async function AdmissionProcedure({
 }) {
     const { course } = await params;
     return (
-        <ModernComingSoon />
+        <AdmissionProcess />
     )
 }

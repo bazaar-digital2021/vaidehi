@@ -13,7 +13,7 @@ export default function SecretaryMessagePage() {
                     </div>
                     <div className="text-center">
                         <h3 className="font-semibold text-xl">Rakesh Kumar Singh</h3>
-                        <p className="text-gray-600">Secretary , Vaidehi Institute</p>
+                        <p className="text-gray-600">Secretary , Vaidehi Institute of Nursing & Higher Education</p>
                     </div>
                 </div>
 

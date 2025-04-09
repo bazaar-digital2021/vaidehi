@@ -1,7 +1,8 @@
-import ModernComingSoon from "@/components/coming-soon";
+import AdmissionProcess from "@/components/admission-process";
+
 
 export default async function page() {
     return (
-        <ModernComingSoon />
+        <AdmissionProcess />
     )
 }

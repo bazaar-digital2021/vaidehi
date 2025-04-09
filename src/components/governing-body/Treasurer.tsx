@@ -12,8 +12,8 @@ export default function TreasurerMessagePage() {
                         <Image src="/governing/treasurer.jpeg" alt="Treasurer" fill className="object-cover" />
                     </div>
                     <div className="text-center">
-                        <h3 className="font-semibold text-xl">Suchitra Sumar</h3>
-                        <p className="text-gray-600">BA, LLB</p>
+                        <h3 className="font-semibold text-xl">Suchitra Suman</h3>
+                        <p className="text-gray-600">Treasurer , Vaidehi Institute of Nursing & Higher Education</p>
                     </div>
                 </div>
 

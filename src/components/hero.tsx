@@ -92,17 +92,17 @@ export function Hero() {
                         </div>
                         <div className="space-y-4">
                             <div className="border-l-4 border-secondary pl-4 py-1">
-                                <p className="text-sm text-gray-500">June 15, 2024</p>
-                                <h3 className="font-medium">Admission Open for 2024-25 Session</h3>
+                                <p className="text-sm text-gray-500">June 15, 2025</p>
+                                <h3 className="font-medium">Admission Open for 2025-26 Session</h3>
                                 <p className="text-sm text-gray-600">Applications are now being accepted for the new academic year.</p>
                             </div>
                             <div className="border-l-4 border-secondary pl-4 py-1">
-                                <p className="text-sm text-gray-500">May 28, 2024</p>
+                                <p className="text-sm text-gray-500">May 28, 2025</p>
                                 <h3 className="font-medium">New Laboratory Equipment Installation</h3>
                                 <p className="text-sm text-gray-600">State-of-the-art nursing simulation equipment has been installed.</p>
                             </div>
                             <div className="border-l-4 border-secondary pl-4 py-1">
-                                <p className="text-sm text-gray-500">May 15, 2024</p>
+                                <p className="text-sm text-gray-500">May 15, 2025</p>
                                 <h3 className="font-medium">Community Health Awareness Camp</h3>
                                 <p className="text-sm text-gray-600">Join us for a free health check-up camp in the neighboring community.</p>
                             </div>

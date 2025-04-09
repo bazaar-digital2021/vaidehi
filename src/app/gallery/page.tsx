@@ -11,9 +11,9 @@ export default function GalleryPage() {
                 {Array.from({ length: 12 }).map((_, index) => (
                     <div
                         key={index}
-                        className="relative aspect-square w-full h-full"
+                        className="relative aspect-square w-full h-full overflow-hidden"
                     >
-                        <Image src={`/gallery/${index + 1}.jpeg`} alt="Gallery" fill className="object-cover" />
+                        <Image src={`/gallery/${index + 1}.jpeg`} alt="Gallery" fill className="object-cover hover:scale-105 transition-all duration-300" />
                     </div>
                 ))}
             </div>

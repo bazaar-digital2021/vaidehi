@@ -14,7 +14,7 @@ export default function ChairpersonMessagePage() {
                     </div>
                     <div className="text-center">
                         <h3 className="font-semibold text-xl">Suchita Kumari </h3>
-                        <p className="text-gray-600">Chairperson, Vaidehi Institute</p>
+                        <p className="text-gray-600">Chairperson, Vaidehi Institute of Nursing & Higher Education</p>
                     </div>
                 </div>
 

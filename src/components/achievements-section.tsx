@@ -61,17 +61,17 @@ export function AchievementsSection() {
                         className="w-full"
                     >
                         <h3 className="text-2xl md:text-3xl font-bold text-primary mb-6">
-                            ADMISSION OPEN FOR 2024
+                            ADMISSION OPEN FOR 2025
                         </h3>
                         <div className="text-gray-700 space-y-4">
                             <p>
-                                <span className="font-bold">Vaidehi Institute of Nursing Sciences and Research Centre</span> is a prestigious institution; its establishment took place in Bangalore, Karnataka in the year <span className="font-bold">2003</span>.
+                                <span className="font-bold">Vaidehi Institute of Nursing & Higher Education</span> is a prestigious institution; its establishment took place in Sithamarhi, Bihar in the year <span className="font-bold">5th Feb 2023</span>.
                             </p>
                             <p>
-                                The institute offers M.Sc. (N), B.Sc. (N), Post Basic B.Sc. (N) and Diploma nursing. Vaidehi Institute of Nursing Sciences and Research Centre offer an encouraging and healthy environment for students to grow with an affordable fee.
+                                The institute offers M.Sc. (N), B.Sc. (N), Post Basic B.Sc. (N) and Diploma nursing. Vaidehi Institute of Nursing & Higher Education offer an encouraging and healthy environment for students to grow with an affordable fee.
                             </p>
                             <p>
-                                It also offers a high-class infrastructure as well as gives a home-like environment to its students. Vaidehi Institute of Nursing Bangalore is one of the top 5 nursing institutes in Karnataka.
+                                It also offers a high-class infrastructure as well as gives a home-like environment to its students. Vaidehi Institute of Nursing & Higher Education is one of the top 5 nursing institutes in Bihar.
                             </p>
 
                             <div className="pt-4">

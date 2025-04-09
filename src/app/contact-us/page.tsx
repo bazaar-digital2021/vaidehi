@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ContactUsPage() {
     return (
         <div className="container mx-auto px-4 py-12">
@@ -11,15 +13,19 @@ export default function ContactUsPage() {
                     <div className="space-y-4">
                         <div>
                             <h3 className="font-medium">Address</h3>
-                            <p>82, EPIP Area, Whitefield, Bangalore - 560066</p>
+                            <p>Singiyahi , Pupri, Sitamarhi, India, Bihar, – 843320, BIHAR</p>
                         </div>
                         <div>
                             <h3 className="font-medium">Phone</h3>
-                            <p>+91 1234567890</p>
+                            <p className="ml-2">
+                                <Link href="tel:+917050256577" className="hover:underline">+91-70502 56577</Link>
+                            </p>
                         </div>
                         <div>
                             <h3 className="font-medium">Email</h3>
-                            <p>info@Vaidehi.edu.in</p>
+                            <a href="mailto:Puprivaidehiinstitute@gmail.com" className="ml-2 hover:underline">
+                                Puprivaidehiinstitute@gmail.com
+                            </a>
                         </div>
                     </div>
                 </div>
