@@ -8,6 +8,13 @@ export interface TestimonialProps {
 
 export const testimonials: TestimonialProps[] = [
     {
+        id: 4,
+        name: "Prabhat kumar",
+        batch: " B.SC Nursing ",
+        content: "I'm currently pursuing my B.SC Nursing at Vaidehi Institute of Nursing & Higher Education. The program has exceeded my expectations with its comprehensive curriculum and excellent faculty. The clinical rotations provide me with diverse patient care experiences that are strengthening my practical skills. The supportive learning environment at Vaidehi has helped me grow both professionally and personally. I'm confident that the education I'm receiving here will prepare me well for advanced nursing roles in the healthcare industry.",
+        imageUrl: "/testimonials/4.jpeg"
+    },
+    {
         id: 1,
         name: "Shivam Kumar",
         batch: "B.SC Nursing ",
@@ -27,13 +34,6 @@ export const testimonials: TestimonialProps[] = [
         batch: "(GNM )",
         content: "I'm currently studying GNM at Vaidehi Institute of Nursing & Higher Education. The college provides exceptional clinical exposure that is enhancing my skills and building my confidence. I'm getting valuable hands-on experience and opportunities to work with renowned hospitals. The faculty's guidance and support during clinical postings has been invaluable. I'm grateful for the solid foundation in nursing that this college is providing me, and I appreciate how they are shaping me into a competent nursing professional.",
         imageUrl: "/testimonials/3.jpeg"
-    },
-    {
-        id: 4,
-        name: "Prabhat ",
-        batch: " B.SC Nursing ",
-        content: "I'm currently pursuing my B.SC Nursing at Vaidehi Institute of Nursing & Higher Education. The program has exceeded my expectations with its comprehensive curriculum and excellent faculty. The clinical rotations provide me with diverse patient care experiences that are strengthening my practical skills. The supportive learning environment at Vaidehi has helped me grow both professionally and personally. I'm confident that the education I'm receiving here will prepare me well for advanced nursing roles in the healthcare industry.",
-        imageUrl: "/testimonials/4.jpeg"
     },
 
 ]; 
