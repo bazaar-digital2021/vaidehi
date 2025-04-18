@@ -44,10 +44,10 @@ export function AchievementsSection() {
                     >
                         <div className="relative w-full rounded-lg overflow-hidden" style={{ height: "400px" }}>
                             <Image
-                                src="/images/bsc.jpeg"
+                                src="/images/admission.jpeg"
                                 alt="Vaidehi Institute Students"
                                 fill
-                                className="object-cover"
+                                className="object-contain rounded-md"
                             />
                         </div>
                     </motion.div>
