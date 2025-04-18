@@ -8,7 +8,7 @@ export default function GalleryPage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {/* These are placeholder divs. In a real application, these would be actual images */}
-                {Array.from({ length: 12 }).map((_, index) => (
+                {Array.from({ length: 28 }).map((_, index) => (
                     <div
                         key={index}
                         className="relative aspect-square w-full h-full overflow-hidden"
@@ -18,20 +18,7 @@ export default function GalleryPage() {
                 ))}
             </div>
 
-            <div className="mt-8">
-                <h2 className="text-2xl font-semibold mb-4">Video Gallery</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {/* These are placeholder divs. In a real application, these would be actual video players */}
-                    {Array.from({ length: 3 }).map((_, index) => (
-                        <div
-                            key={index}
-                            className="bg-gray-200 aspect-video flex items-center justify-center rounded-md overflow-hidden"
-                        >
-                            <span className="text-gray-500">Video {index + 1}</span>
-                        </div>
-                    ))}
-                </div>
-            </div>
+
         </div>
     )
 } 

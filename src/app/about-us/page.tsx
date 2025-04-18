@@ -94,7 +94,7 @@ export default function AboutUsPage() {
                             </motion.h2>
                         </div>
                         <div className="md:w-4/5">
-                            <p className="text-lg mb-6">Vydehi Institute of Nursing aims at providing the:</p>
+                            <p className="text-lg mb-6">Vaidehi Institute of Nursing aims at providing the:</p>
 
                             <div className="grid md:grid-cols-3 gap-6 mb-6">
                                 <motion.div

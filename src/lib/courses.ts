@@ -9,14 +9,14 @@ export interface CourseProps {
 export const courses: CourseProps[] = [
     {
         title: "General Nursing & Midwifery (GNM)",
-        image: "/courses/2.jpeg",
+        image: "/courses/3.jpeg",
         intake: 60,
         duration: "3 Years",
         href: "/courses/gnm/course-description"
     },
     {
         title: "Basic B.Sc. Nursing",
-        image: "/courses/3.jpeg",
+        image: "/courses/2.jpeg",
         intake: 50,
         duration: "4 Years",
         href: "/courses/basic-bsc-nursing/course-description"
