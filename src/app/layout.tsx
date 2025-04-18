@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vaidehi Institute of Nursing Sciences & Research Centre",
-  description: "Vaidehi Institute of Nursing Sciences & Research Centre",
+  title: "Vaidehi Institute of Nursing and Higher Education ",
+  description: "Best Nursing College in all over Bihar . Vaidehi Institute of Nursing and Higher Education",
   icons: {
     icon: "/vi-logo.png",
   },
