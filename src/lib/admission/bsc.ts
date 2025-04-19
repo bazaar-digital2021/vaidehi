@@ -41,7 +41,6 @@ export const eligibilityData: EligibilityItem[] = [
             "Conduct Certificates from the Institution last attended",
             "Medical Fitness certificate",
             "Migration Certificates",
-            "Selected non Karnataka candidates should obtain Eligibility Certificates from the RGUHS",
             "Photographs – 4 ( 2 passport size and 2 stamp size )",
             "Embassy Certificate (NRI students)"
         ]

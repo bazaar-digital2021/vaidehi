@@ -17,9 +17,32 @@ export default function ContactUsPage() {
                         </div>
                         <div>
                             <h3 className="font-medium">Phone</h3>
-                            <p className="ml-2">
-                                <Link href="tel:+917050256577" className="hover:underline">+91-70502 56577</Link>
-                            </p>
+                            <div className="flex gap-2 ">
+                                <div className="flex-shrink-0">
+                                    COLLEGE ADMISSION NO
+                                </div>
+                                <p className="ml-2">
+                                    <Link href="tel:+917050256577" className="hover:underline">+91-70502 56577</Link>
+                                </p>
+                            </div>
+
+                            <div className="flex gap-2 ">
+                                <div className="flex-shrink-0">
+                                    DR SUBHASH SINGH
+                                </div>
+                                <p className="ml-2">
+                                    <Link href="tel:+917050256578" className="hover:underline">+91-70502 56578</Link>
+                                </p>
+                            </div>
+
+                            <div className="flex gap-2 ">
+                                <div className="flex-shrink-0">
+                                    SECRETARY
+                                </div>
+                                <p className="ml-2">
+                                    <Link href="tel:+917050256579" className="hover:underline">+91-70502 56579</Link>
+                                </p>
+                            </div>
                         </div>
                         <div>
                             <h3 className="font-medium">Email</h3>

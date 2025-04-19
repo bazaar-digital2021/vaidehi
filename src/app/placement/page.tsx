@@ -56,7 +56,7 @@ export default function PlacementPage() {
                     <p className="mb-4">
                         Our placement record speaks for itself:
                     </p>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="p-6 border rounded-md text-center">
                             <div className="text-4xl font-bold text-primary mb-2">95%</div>
                             <div className="text-lg">Placement Rate</div>
@@ -65,10 +65,7 @@ export default function PlacementPage() {
                             <div className="text-4xl font-bold text-primary mb-2">50+</div>
                             <div className="text-lg">Recruiting Partners</div>
                         </div>
-                        <div className="p-6 border rounded-md text-center">
-                            <div className="text-4xl font-bold text-primary mb-2">₹4.2L</div>
-                            <div className="text-lg">Average Starting Salary</div>
-                        </div>
+
                     </div>
                 </div>
             </div>

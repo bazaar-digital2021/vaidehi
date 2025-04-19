@@ -49,12 +49,7 @@ const AdmissionProcess = () => {
                         </div>
                     </li>
 
-                    <li className="flex">
-                        <div className="mr-2 mt-1 flex-shrink-0">•</div>
-                        <div>
-                            <span className="font-bold">Karnataka Entrance Examination:</span> Candidates appear for the entrance examination as per the schedule mentioned in their admit cards. The exam assesses their knowledge in subjects like Physics, Chemistry, Biology, and English. It is usually conducted in a multiple-choice format.
-                        </div>
-                    </li>
+
 
                     <li className="flex">
                         <div className="mr-2 mt-1 flex-shrink-0">•</div>
